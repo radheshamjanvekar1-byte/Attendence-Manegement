@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance mangement system</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h2>Attendence mangement system</h2>
+    <div class="container">
+        <input type="text"placeholder="enter student Name" id="name">
+        <button onclick="markPresent()">Prensent</button>
+        <button onclick="markAbsent()">Absent</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Student Name</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="attendenceList"></tbody>
+</body>
+
+</html>
